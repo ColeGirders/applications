@@ -49,7 +49,6 @@ window=sg.Window("Calculator", layout, size=(200,330),finalize=True)
 
 while True:
     event, values = window.read()
-    print(event)
 
     if (event=='clear'):
         input1t=''
